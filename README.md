@@ -4,7 +4,7 @@
 <br>
 
 #  📌 Project Scope
-<hr>
+
 Build an API system to:
 <br>
 <li>Create, update, delete employees and departments
@@ -27,7 +27,7 @@ Method	Endpoint	Description
     <br>
 <li>PUT	/api/departments/{id}	Update department details
     <br>
-<li>DELETE	/api/departments/{id}	Delete department (only if no employees)
+<li>DELETE	/api/departments/{id}	Delete department 
     <br>
 <li>GET	/api/departments	Get list of departments
     <br>
@@ -51,8 +51,10 @@ Method	Endpoint	Description
 <li>GET	/api/employees/{id}	Get one employee
  <br>
 
-📄 Sample JSON Schemas
+# 📄 Sample JSON Schemas
+<hr>
 ▶ Create Employee
+ <br>
 json
 Copy
 Edit
