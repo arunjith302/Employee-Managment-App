@@ -51,9 +51,11 @@ Method	Endpoint	Description
    <br>
 <li>GET	/api/employees/{id}	Get one employee
  <br>
+ 
 
 # 📄 Sample JSON Schemas
 <hr>
+
 ▶ Create Employee
  <br>
 <li>
@@ -69,6 +71,7 @@ Method	Endpoint	Description
   "departmentId": 1
 }
    <br>
+   <br> 
 ▶ Create Department
  <br>
 <li>{
