@@ -21,15 +21,14 @@ Build an API system to:
 
 # 📁 Department APIs
   <hr>
-  <br>
-<hr> <table border="1" cellspacing="0" cellpadding="5"> <thead> <tr> <th>Method</th> <th>Endpoint</th> <th>Description</th> </tr> </thead> <tbody> <tr> <td>POST</td> <td>/api/departments</td> <td>Add new department</td> </tr> <tr> <td>PUT</td> <td>/api/departments/{id}</td> <td>Update department details</td> </tr> <tr> <td>DELETE</td> <td>/api/departments/{id}</td> <td>Delete department (only if no employees)</td> </tr> <tr> <td>GET</td> <td>/api/departments</td> <td>Get list of departments</td> </tr> <tr> <td>GET</td> <td>/api/departments?expand=true</td> <td>Get departments with employees</td> </tr> </tbody> </table>
+
+<table border="1" cellspacing="0" cellpadding="5"> <thead> <tr> <th>Method</th> <th>Endpoint</th> <th>Description</th> </tr> </thead> <tbody> <tr> <td>POST</td> <td>/api/departments</td> <td>Add new department</td> </tr> <tr> <td>PUT</td> <td>/api/departments/{id}</td> <td>Update department details</td> </tr> <tr> <td>DELETE</td> <td>/api/departments/{id}</td> <td>Delete department (only if no employees)</td> </tr> <tr> <td>GET</td> <td>/api/departments</td> <td>Get list of departments</td> </tr> <tr> <td>GET</td> <td>/api/departments?expand=true</td> <td>Get departments with employees</td> </tr> </tbody> </table>
  <br>
 
 # 📁 Employee APIs
 <hr>
-Method	Endpoint	Description
-<br>
-<hr> <table border="1" cellspacing="0" cellpadding="5"> <thead> <tr> <th>Method</th> <th>Endpoint</th> <th>Description</th> </tr> </thead> <tbody> <tr> <td>POST</td> <td>/api/employees</td> <td>Create a new employee</td> </tr> <tr> <td>PUT</td> <td>/api/employees/{id}</td> <td>Update existing employee</td> </tr> <tr> <td>PATCH</td> <td>/api/employees/{id}/department/{departmentId}</td> <td>Move employee to another department</td> </tr> <tr> <td>GET</td> <td>/api/employees</td> <td>Get all employees (paginated)</td> </tr> <tr> <td>GET</td> <td>/api/employees?lookup=true</td> <td>Get only employee ID and names</td> </tr> <tr> <td>GET</td> <td>/api/employees/{id}</td> <td>Get one employee</td> </tr> </tbody> </table>
+
+ <table border="1" cellspacing="0" cellpadding="5"> <thead> <tr> <th>Method</th> <th>Endpoint</th> <th>Description</th> </tr> </thead> <tbody> <tr> <td>POST</td> <td>/api/employees</td> <td>Create a new employee</td> </tr> <tr> <td>PUT</td> <td>/api/employees/{id}</td> <td>Update existing employee</td> </tr> <tr> <td>PATCH</td> <td>/api/employees/{id}/department/{departmentId}</td> <td>Move employee to another department</td> </tr> <tr> <td>GET</td> <td>/api/employees</td> <td>Get all employees (paginated)</td> </tr> <tr> <td>GET</td> <td>/api/employees?lookup=true</td> <td>Get only employee ID and names</td> </tr> <tr> <td>GET</td> <td>/api/employees/{id}</td> <td>Get one employee</td> </tr> </tbody> </table>
  <br>
  
 
