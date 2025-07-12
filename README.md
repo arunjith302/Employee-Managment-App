@@ -62,7 +62,7 @@ Build an API system to:
    <br>
 <hr> <table border="1" cellspacing="0" cellpadding="5"> <thead> <tr> <th>Column</th> <th>Type</th> <th>Description</th> </tr> </thead> <tbody> <tr> <td>employee_id</td> <td>INT (PK)</td> <td>Auto increment primary key</td> </tr> <tr> <td>employee_name</td> <td>VARCHAR</td> <td>Required</td> </tr> <tr> <td>date_of_birth</td> <td>DATE</td> <td>Optional</td> </tr> <tr> <td>address</td> <td>VARCHAR</td> <td>Optional</td> </tr> <tr> <td>title</td> <td>VARCHAR</td> <td>Required</td> </tr> <tr> <td>joining_date</td> <td>DATE</td> <td>Optional</td> </tr> <tr> <td>salary</td> <td>DOUBLE</td> <td>Required</td> </tr> <tr> <td>yearly_bonus_percentage</td> <td>DOUBLE</td> <td>Optional</td> </tr> <tr> <td>department_id</td> <td>INT (FK)</td> <td>Links to Department</td> </tr> <tr> <td>manager_id</td> <td>INT (FK)</td> <td>Self-reference</td> </tr> </tbody> </table>
   <br>
-   <br>
+
 <h3>🔸 Department Table</h3>
 <table border="1" cellspacing="0" cellpadding="5">
   <thead>
@@ -95,7 +95,7 @@ Build an API system to:
     </tr>
   </tbody>
 </table>
-
+<br>
 
 #⚙️ application.properties Example
 <hr>
