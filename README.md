@@ -100,19 +100,26 @@ Build an API system to:
 # ⚙️ application.properties Example
 <hr>
 <pre><code>
-server.port=8080
+spring.application.name=employee-management
 
-spring.datasource.url=jdbc:mysql://localhost:3306/employee_db
+
+spring.datasource.url=jdbc:mysql://localhost:3306/employee_management
 spring.datasource.username=root
-spring.datasource.password=your_password
+spring.datasource.password=2001
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
-spring.jpa.hibernate.ddl-auto=update
+
+spring.jpa.hibernate.ddl-auto=none
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
+
 
 springdoc.api-docs.enabled=true
 springdoc.swagger-ui.enabled=true
+
+server.port=8080
+
 </code></pre>
 
 <h3>🚨 Error Handling Examples</h3>
