@@ -22,44 +22,22 @@ Build an API system to:
 # 📁 Department APIs
   <hr>
   <br>
-Method	Endpoint	Description
-  <br>
-<li>POST	/api/departments	Add new department
-    <br>
-<li>PUT	/api/departments/{id}	Update department details
-    <br>
-<li>DELETE	/api/departments/{id}	Delete department 
-    <br>
-<li>GET	/api/departments	Get list of departments
-    <br>
-<li>GET	/api/departments?expand=true	Get departments with employees
-  <br>
+<hr> <table border="1" cellspacing="0" cellpadding="5"> <thead> <tr> <th>Method</th> <th>Endpoint</th> <th>Description</th> </tr> </thead> <tbody> <tr> <td>POST</td> <td>/api/departments</td> <td>Add new department</td> </tr> <tr> <td>PUT</td> <td>/api/departments/{id}</td> <td>Update department details</td> </tr> <tr> <td>DELETE</td> <td>/api/departments/{id}</td> <td>Delete department (only if no employees)</td> </tr> <tr> <td>GET</td> <td>/api/departments</td> <td>Get list of departments</td> </tr> <tr> <td>GET</td> <td>/api/departments?expand=true</td> <td>Get departments with employees</td> </tr> </tbody> </table>
+ <br>
 
 # 📁 Employee APIs
 <hr>
 Method	Endpoint	Description
 <br>
-<li>POST	/api/employees	Create a new employee
-   <br>
-<li>PUT	/api/employees/{id}	Update existing employee
-   <br>
-<li>PATCH	/api/employees/{id}/department/{departmentId}	Move employee to another department
-   <br>
-<li>GET	/api/employees	Get all employees (paginated)
-   <br>
-<li>GET	/api/employees?lookup=true	Get only employee ID and names
-   <br>
-<li>GET	/api/employees/{id}	Get one employee
+<hr> <table border="1" cellspacing="0" cellpadding="5"> <thead> <tr> <th>Method</th> <th>Endpoint</th> <th>Description</th> </tr> </thead> <tbody> <tr> <td>POST</td> <td>/api/employees</td> <td>Create a new employee</td> </tr> <tr> <td>PUT</td> <td>/api/employees/{id}</td> <td>Update existing employee</td> </tr> <tr> <td>PATCH</td> <td>/api/employees/{id}/department/{departmentId}</td> <td>Move employee to another department</td> </tr> <tr> <td>GET</td> <td>/api/employees</td> <td>Get all employees (paginated)</td> </tr> <tr> <td>GET</td> <td>/api/employees?lookup=true</td> <td>Get only employee ID and names</td> </tr> <tr> <td>GET</td> <td>/api/employees/{id}</td> <td>Get one employee</td> </tr> </tbody> </table>
  <br>
  
 
 # 📄 Sample JSON Schemas
 <hr>
 
-▶ Create Employee
- <br>
-<li>
-{
+<h3>▶ Create Employee</h3>
+<pre><code>{
   "employeeName": "John Doe",
   "dateOfBirth": "1990-01-01",
   "address": "Bangalore",
@@ -70,14 +48,14 @@ Method	Endpoint	Description
   "reportingManagerId": 2,
   "departmentId": 1
 }
-   <br>
-   <br> 
-▶ Create Department
- <br>
-<li>{
+</code></pre>
+
+<h3>▶ Create Department</h3>
+<pre><code>{
   "departmentName": "Engineering",
   "departmentHeadId": 1
 }
+</code></pre>
    <br>
 # 🗃 Database Schema
   <hr>
