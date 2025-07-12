@@ -97,10 +97,9 @@ Build an API system to:
 </table>
 
 
-⚙️ application.properties Example
-properties
-Copy
-Edit
+#⚙️ application.properties Example
+<hr>
+<pre><code>
 server.port=8080
 
 spring.datasource.url=jdbc:mysql://localhost:3306/employee_db
@@ -114,27 +113,27 @@ spring.jpa.properties.hibernate.format_sql=true
 
 springdoc.api-docs.enabled=true
 springdoc.swagger-ui.enabled=true
-🚨 Error Handling Examples
-🔸 Validation Error
-json
-Copy
-Edit
-{
+</code></pre>
+
+<h3>🚨 Error Handling Examples</h3>
+
+<h4>🔸 Validation Error</h4>
+<pre><code>{
   "employeeName": "must not be blank",
   "salary": "must be greater than 0"
 }
-🔸 Not Found
-json
-Copy
-Edit
-{
+</code></pre>
+
+<h4>🔸 Not Found</h4>
+<pre><code>{
   "error": "Department not found"
 }
-🔸 Internal Error
-json
-Copy
-Edit
-{
+</code></pre>
+
+<h4>🔸 Internal Error</h4>
+<pre><code>{
   "error": "Internal server error",
   "details": "Exception message..."
 }
+</code></pre>
+
