@@ -97,7 +97,7 @@ Build an API system to:
 </table>
 <br>
 
-#⚙️ application.properties Example
+# ⚙️ application.properties Example
 <hr>
 <pre><code>
 server.port=8080
