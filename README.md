@@ -55,7 +55,7 @@ Build an API system to:
   "departmentHeadId": 1
 }
 </code></pre>
-   <br>
+
 # 🗃 Database Schema
   <hr>
 🔸 Employee Table
